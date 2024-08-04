@@ -3,11 +3,11 @@ FarecasterのFramesを理解するために作成
 
 # 手順
 ## 0. asdf でのバージョン設定
-    mac m2にてasdfでバージョン管理を行なっているため
-    ```bash
-    asdf local nodejs 20.14.0
-    asdf local yarn 1.22.22  
-    ```
+mac m2にてasdfでバージョン管理を行なっているため
+```bash
+asdf local nodejs 20.14.0
+asdf local yarn 1.22.22  
+```
 ## 1. セットアップ
 1. Yarnの初期化
    ```bash
@@ -45,10 +45,10 @@ FarecasterのFramesを理解するために作成
  ```
 2. [http://localhost:5174/](http://localhost:5174/)へアクセスする
 3. 入力フォームで作成したプロジェクトのエンドポイント（「1.セットアップ」の段階では、[http://localhost:5174/api](http://localhost:5174/api)）
-   [Frog Devツール_01](./assets/01_frog_start.png)
+   ![Frog Devツール_01](./assets/01_frog_start.png)
 4. 開発画面が表示されるので、その場でボタン押下などのインタラクションをテストする
-   [Frog Devツール_01](./assets/02_frog_devtool.png)
-   
+   ![Frog Devツール_01](./assets/02_frog_devtool.png)
+
 ## 3. 
 
 # 参考
