@@ -49,7 +49,17 @@ asdf local yarn 1.22.22
 4. 開発画面が表示されるので、その場でボタン押下などのインタラクションをテストする
    ![Frog Devツール_01](./assets/02_frog_devtool.png)
 
-## 3. 
+## 3. デプロイ
+Vercelにデプロイするケース
+1. [Vercel](https://vercel.com/)のアカウントを作成
+2. デプロイを実行
+   ```bash
+   yarn run deploy
+   # Vercelのログインを求められるので、各種情報を入力する
+   ```
+3.  [WarpcastのValidatorツール](https://warpcast.com/~/developers/frames)にて、デプロイしたプロジェクトのURLを入力して利用可能であることを確認する
+※ ドメイン/api のパスを入力
+   ![Warpcast Devツール](./assets/03_warpcast_devtool.png)
 
 # 参考
 * [Farecaster Docs - Getting Started](https://docs.farcaster.xyz/developers/frames/getting-started)
