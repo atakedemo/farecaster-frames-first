@@ -3,6 +3,7 @@ FarecasterのFramesを理解するために作成
 
 # 手順
 ## 0. asdf でのバージョン設定
+    mac m2にてasdfでバージョン管理を行なっているため
     ```bash
     asdf local nodejs 20.14.0
     asdf local yarn 1.22.22  
@@ -34,7 +35,22 @@ FarecasterのFramesを理解するために作成
     ➜  Network: use --host to expose
    ```
 
-## 2. X
+## 2. Frog Devツールのセットアップ
+プロジェクトのルートディレクトリ([./](./))で実施
+1. Frogの初期設定を行い、サーバーを起動
+※上記「1.セットアップ」とは別ウィンドウのターミナルを実行する
+ ```bash
+ yarn global add frog
+ npx frog
+ ```
+2. [http://localhost:5174/](http://localhost:5174/)へアクセスする
+3. 入力フォームで作成したプロジェクトのエンドポイント（「1.セットアップ」の段階では、[http://localhost:5174/api](http://localhost:5174/api)）
+   [Frog Devツール_01](./assets/01_frog_start.png)
+4. 開発画面が表示されるので、その場でボタン押下などのインタラクションをテストする
+   [Frog Devツール_01](./assets/02_frog_devtool.png)
+   
+## 3. 
 
 # 参考
 * [Farecaster Docs - Getting Started](https://docs.farcaster.xyz/developers/frames/getting-started)
+* [frog - Devtools](https://frog.fm/concepts/devtools)
